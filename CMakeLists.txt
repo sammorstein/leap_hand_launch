@@ -39,7 +39,7 @@ install(PROGRAMS
 #    ee_forces
 #    DESTINATION lib/${PROJECT_NAME}
 #)
-install(DIRECTORY launch #model
+install(DIRECTORY launch model
         DESTINATION share/${PROJECT_NAME})
 
 ################################################
